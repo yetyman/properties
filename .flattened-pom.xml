@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.yetyman</groupId>
+  <artifactId>properties</artifactId>
+  <version>2025.05.29.3-ALPHA</version>
+  <name>properties</name>
+  <description>Sample application</description>
+  <url>https://github.com/yetyman/properties</url>
+  <inceptionYear>2025</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yetyman</id>
+      <name>Jody S</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/yetyman/properties.git</connection>
+    <developerConnection>scm:git:https://github.com/yetyman/properties.git</developerConnection>
+    <url>https://github.com/yetyman/properties.git</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+    </repository>
+  </distributionManagement>
+  <properties>
+    <maven.compiler.version>3.14.0</maven.compiler.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <project.developer.name>Jody S</project.developer.name>
+    <sonatype.publish.version>0.7.0</sonatype.publish.version>
+    <project.developer.id>yetyman</project.developer.id>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javafx.version>23-ea+22</javafx.version>
+  </properties>
+  <pluginRepositories>
+    <pluginRepository>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>

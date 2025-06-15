@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SimpleBindingTests" time="0.007" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties\target\test-classes;C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties\target\classes;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-base\23-ea+22\javafx-base-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-base\23-ea+22\javafx-base-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22-linux.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-controls\23-ea+22\javafx-controls-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-controls\23-ea+22\javafx-controls-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-fxml\23-ea+22\javafx-fxml-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-fxml\23-ea+22\javafx-fxml-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\yetyman\basic-structures\1.0-SNAPSHOT\basic-structures-1.0-SNAPSHOT.jar;C:\Users\Yety\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Yety\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\javafx-helpers\target\javafx-helpers-2025.05.29.3-ALPHA.jar;C:\Users\Yety\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.2_13\bin"/>
+    <property name="sun.java.command" value="C:\Users\Yety\AppData\Local\Temp\surefire4580504376360922228\surefirebooter-20250614225103992_3.jar C:\Users\Yety\AppData\Local\Temp\surefire4580504376360922228 2025-06-14T22-51-00_673-jvmRun1 surefire-20250614225103992_1tmp surefire_0-20250614225103992_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties\target\test-classes;C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties\target\classes;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-base\23-ea+22\javafx-base-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-base\23-ea+22\javafx-base-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22-linux.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-controls\23-ea+22\javafx-controls-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-controls\23-ea+22\javafx-controls-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-graphics\23-ea+22\javafx-graphics-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-fxml\23-ea+22\javafx-fxml-23-ea+22.jar;C:\Users\Yety\.m2\repository\org\openjfx\javafx-fxml\23-ea+22\javafx-fxml-23-ea+22-win.jar;C:\Users\Yety\.m2\repository\org\yetyman\basic-structures\1.0-SNAPSHOT\basic-structures-1.0-SNAPSHOT.jar;C:\Users\Yety\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Yety\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\javafx-helpers\target\javafx-helpers-2025.05.29.3-ALPHA.jar;C:\Users\Yety\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Yety"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk21.0.2_13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Yety\AppData\Local\Temp\surefire4580504376360922228\surefirebooter-20250614225103992_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS"/>
+    <property name="user.name" value="Yety"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-21.0.2.13.1"/>
+    <property name="localRepository" value="C:\Users\Yety\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Yety\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.2"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\Yety\IdeaProjects\Hobby Stuff\yetyman\properties"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.2_13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\mosquitto;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Maven\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Amazon Corretto\jdk21.0.2_13\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\Yety\AppData\Local\Microsoft\WindowsApps;C:\Users\Yety\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yety\AppData\Local\GitHubDesktop\bin;C:\Users\Yety\.dotnet\tools;C:\Users\Yety\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Yety\AppData\Local\Microsoft\WindowsApps;C:\Users\Yety\.dotnet\tools;C:\Program Files\ffmpeg\bin;C:\Users\Yety\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="21.0.2+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+</testsuite>
