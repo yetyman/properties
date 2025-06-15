@@ -34,8 +34,7 @@
   </distributionManagement>
   <properties>
     <maven.compiler.version>3.14.0</maven.compiler.version>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.langLvl>21</maven.compiler.langLvl>
     <project.developer.name>Jody S</project.developer.name>
     <sonatype.publish.version>0.7.0</sonatype.publish.version>
     <project.developer.id>yetyman</project.developer.id>
