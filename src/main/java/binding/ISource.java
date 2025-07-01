@@ -16,6 +16,13 @@ public interface ISource<T> extends IGetter<T>{
 
         return binding;
     }
+    default Listener<T> bindOut(IChange<T> change) {
+        Listener<T> binding = generateListener();
+
+        binding.setChange(change);
+
+        return binding;
+    }
 
     <Q> IBinding<T, Q> bindOut(IBinding<T, Q> binding);
 
@@ -23,5 +30,9 @@ public interface ISource<T> extends IGetter<T>{
     default IBinding<T, T> generateBinding() {
         return new OneWayBinding<T>(this, null);
     };
+    default Listener<T> generateListener() {
+        return new Listener<>(this, null);
+    };
     boolean unbind(IBinding<?,?> binding);
+
 }

@@ -67,7 +67,13 @@ public class Property<T> implements IProperty<T> {
 
     @Override
     public IBinding<T, T> generateBinding() {
-        OneWayBinding<T> binding = new OneWayBinding<T>(this);
+        OneWayBinding<T> binding = new OneWayBinding<T>(this, null);
+        bindOut(binding);
+        return binding;
+    }
+    @Override
+    public Listener<T> generateListener() {
+        Listener<T> binding = new Listener<>(this, null);
         bindOut(binding);
         return binding;
     }
@@ -100,11 +106,17 @@ public class Property<T> implements IProperty<T> {
 
     @Override
     public IBinding<T, T> bindOut(ISetter<T> settable) {
-        OneWayBinding<T> binding = new OneWayBinding<T>(this, settable);
-        bindOut(binding);
+        IBinding<T, T> binding = generateBinding();
+        binding.registerReceiver(settable);
         return binding;
     }
 
+    @Override
+    public Listener<T> bindOut(IChange<T> change) {
+        Listener<T> listener = generateListener();
+        listener.setChange(change);
+        return listener;
+    }
 
     @Override
     public <Q> IBinding<T, Q> bindOut(IBinding<T, Q> binding) {
